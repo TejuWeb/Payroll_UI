@@ -1,0 +1,54 @@
+
+/* The sidebar menu */
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 260px; /* Set the width of the sidebar */
+    position:fixed; /*Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 80px; /* Stay at the top */
+   
+    border: 1px solid rgb(16, 16, 16,0.5);
+    border-top: 0 ;
+    border-radius: 5px;
+    
+  }
+  #dashboard, #reports{
+   
+    z-index: 1;
+     padding: 20px;
+     
+    background-color: white;
+    border-radius: 5px;
+ }
+  .dropdown-item:hover{
+    border-radius: 5px;
+  }
+  .accordion{
+    padding: 0px;
+  }
+
+  
+   /* Extra small devices (portrait phones, less than 576px) */
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) { 
+
+  }
+  
+   /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+
+    }
+  
+   /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+
+    }
+  
+   /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+
+   }
+
+
+   

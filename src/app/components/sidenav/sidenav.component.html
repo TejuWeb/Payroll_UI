@@ -1,0 +1,146 @@
+<div class="nav sidenav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+  
+    <button class="accordion-button collapsed" id="dashboard" type="button" data-bs-toggle="collapse"
+      data-bs-target="#salesSubmenu" aria-expanded="false" aria-controls="salesSubmenu" >
+      <a class=" dropdown-item " routerLink="/dashboard" role="tab"><i class="fa-solid fa-house"></i> &nbsp;
+        Dashboard</a>
+    </button>
+    <div class="accordion " id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hrSubmenu"
+                aria-expanded="false" aria-controls="hrSubmenu">
+                <i class="fa-solid fa-wrench"></i>&nbsp;
+                General Setup
+              </button>
+            </h2>
+            <div id="hrSubmenu" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <li>
+                  <a class=" dropdown-item" routerLink="/department" role="tab">
+                    <i class="fa-solid fa-angles-right"></i>&nbsp;
+                    <span class="d-none d-sm-inline">Department</span> </a>
+                </li>
+              </div>
+            </div>
+          </div>
+    
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#logisticSubmenu" aria-expanded="false" aria-controls="logisticSubmenu">
+                <i class="fa-solid fa-person-dress"></i>&nbsp;
+                Employee Management
+              </button>
+            </h2>
+            <div id="logisticSubmenu" class="accordion-collapse collapse" aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <li>
+                  <a class=" dropdown-item" routerLink="/employeeinfo" role="tab">
+                    <i class="fa-solid fa-angles-right"></i>&nbsp;
+                    <span class="d-none d-sm-inline"> Employee Info </span> </a>
+                </li>
+              </div>
+            </div>
+          </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#manufacturingSubmenu" aria-expanded="false" aria-controls="manufacturingSubmenu">
+            <i class="fa-solid fa-users"></i>&nbsp;
+            Attendance
+          </button>
+        </h2>
+        <div id="manufacturingSubmenu" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <li>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline">Attendance Sheet</span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline">Attendance Logs</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#inventorySubmenu" aria-expanded="false" aria-controls="inventorySubmenu">
+            <i class="fa-solid fa-user-slash"></i>&nbsp;
+            Leave
+          </button>
+        </h2>
+        <div id="inventorySubmenu" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <li>
+              <a class=" dropdown-item" routerLinkActive="active-link"  routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline">Leave Type</span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline">Apply for Leave</span> </a>
+            </li>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#marketingSubmenu" aria-expanded="false" aria-controls="marketingSubmenu">
+            <i class="fa-solid fa-wallet"></i>&nbsp;
+            Payroll
+          </button>
+        </h2>
+        <div id="marketingSubmenu" class="accordion-collapse collapse" aria-labelledby="headingFive"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <li>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline"> Payroll Months</span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;&nbsp;
+                <span class="d-none d-sm-inline"> Payroll Setup</span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline">Tax Slabs</span></a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline"> Allowance Deduction Type</span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline"> Allowance Deduction</span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline"> Payroll Final Report </span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline"> Payroll Publish</span> </a>
+              <a class=" dropdown-item" routerLink="" role="tab">
+                <i class="fa-solid fa-angles-right"></i>&nbsp;
+                <span class="d-none d-sm-inline"> Payroll Payroll Report </span> </a>
+
+            </li>
+          </div>
+        </div>
+      </div>
+
+    
+
+    </div>
+
+
+    <button class="accordion-button collapsed " id="reports" type="button" data-bs-toggle="collapse"
+      data-bs-target="#salesSubmenu" aria-expanded="false" aria-controls="salesSubmenu">
+      <i class="fa-sharp fa-solid fa-file-lines"></i>&nbsp;
+      Reports
+    </button>
+  </div>

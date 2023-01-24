@@ -1,0 +1,29 @@
+<header class=" header py-3 mb-4  shadow  sticky">
+    <div class=" align-items-center d-flex">
+      <div class=" flex-grow-1 d-flex align-items-center">
+        <a routerLink="" class="d-flex align-items-center link-dark text-decoration-none title"> HR & PAYROLL </a>
+        <button class="btn">&nbsp;<i class="fa-solid fa-bars"></i></button>
+        
+      </div>
+      <div class="">
+
+        <div class="flex-shrink-0 dropdown">
+          <a  class="d-block link-dark text-decoration-none dropdown-toggle username" id="dropdownUser2"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img
+              src="https://th.bing.com/th/id/R.6b0022312d41080436c52da571d5c697?rik=ejx13G9ZroRrcg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fuser-png-icon-young-user-icon-2400.png&ehk=NNF6zZUBr0n5i%2fx0Bh3AMRDRDrzslPXB0ANabkkPyv0%3d&risl=&pid=ImgRaw&r=0"
+              alt="user" class="rounded-circle user">Hello,{{fullName}}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="dropdownUser2">
+            <!-- <li><a class="dropdown-item" routerLink="/#">New User</a></li>
+                    <li><a class="dropdown-item" routerLink="/#">Settings</a></li>
+                    <li><a class="dropdown-item" routerLink="/#">Profile</a></li> -->
+            <li>
+              <!-- <hr class="dropdown-divider"> -->
+            </li>
+            <li><a class="dropdown-item" (click)="logout()" routerLink="/login">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>

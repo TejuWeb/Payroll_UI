@@ -1,0 +1,14 @@
+.container-fluid{
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(to top,#5858c9 10%, #eee39e 50%) no-repeat; */
+   
+}
+.main{
+    
+    width: 80%;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 270px;
+  
+}

@@ -1,0 +1,86 @@
+<div>
+    <app-header></app-header>
+    <app-sidenav></app-sidenav>
+</div>
+
+
+<div class="container-fluid">
+    <div class="main">
+        <div class="mb-4 ">
+            <h2>> Department</h2>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-body">
+
+
+                <div class=" d-flex justify-content-center ">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <div class="form-outline">
+                                <input type="text" placeholder="Department Name..." class="form-control border border-primary" />
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="button" class="btn btn-info mx-3">Show</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#addNewModal">Add New</button>
+                        </div>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade " id="addNewModal" tabindex="-1" aria-labelledby="addNewModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="saddNewModalLabel">Add New Department Name</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="text"  class="form-control border border-primary"  />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" (click)="onSave()" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card  ">
+            <div class="card-body  ">
+                <h3 class="text-center text-bg-dark rounded">Departments</h3>
+                <hr>
+                <table class="table table-bordered border-primary">
+                    <tr>
+                        <th> Sr. No.</th>
+                        <th> Name</th>
+                        <th> Edit</th>
+                        <th> Delete</th>
+                    </tr>
+                    <tr *ngFor="let department of departments">
+                        <td> {{department.id}}</td>
+                        <td>{{department.department_Name}}</td>
+                        <td><button type="button" class=" btn btn-outline-success m-2">Edit</button></td>
+                        <td><button  type="button" class=" btn btn-outline-danger">Delete</button></td>
+                    </tr>
+                </table>
+                <div>
+                    <ul >
+                        <li></li>
+                       </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+.text-uppercase{
+    margin-left: 15px;
+    font-size: larger;
+}
+.rounded-circle{
+    margin-right: 10px;
+}
+
+.header{
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: 100%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0px; /* Stay at the top */
+    left: 0;
+    padding-top: 20px;
+    background-color: #5858c9;
+}
+.logo{
+    width: 45px;
+    margin-left: 10px;
+}
+.title{
+    margin-left: 46px;
+    font-size: 26px;
+    
+}
+
+.user{
+    width:32px;
+    height:32px;
+  
+}
+.username{
+    margin-right: 20px;
+}
+.fa-bars{
+   size: 100px;
+}

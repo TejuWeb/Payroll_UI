@@ -1,0 +1,23 @@
+<div>
+  <app-header></app-header>
+  <app-sidenav></app-sidenav>
+</div>
+
+
+
+<!-- sidebar Menu dropdown  -->
+
+<div class="container-fluid">
+  <div class="main">
+    <div class="  mb-4">
+      <h2>Dashboard</h2>
+    </div>
+    <div class="card card-body ">
+      <ul *ngFor="let user of users">
+        <li>{{user.username}}</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
